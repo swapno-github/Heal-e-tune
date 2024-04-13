@@ -40,6 +40,8 @@ def main():
     if not os.path.exists("uploads"):
         os.makedirs("uploads")
 
+    
+
     uploaded_file = st.file_uploader("Upload an image", type=["jpg", "png", "jpeg"])
 
     if uploaded_file is not None:
